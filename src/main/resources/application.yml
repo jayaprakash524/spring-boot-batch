@@ -1,0 +1,29 @@
+spring:
+  application:
+    name: spring-boot-batch
+  batch:
+    job:
+      enabled: false
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+postgres:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/scdf
+    username: postgres
+    password: password
+    driver-class-name: org.postgresql.Driver
+
+mysql:
+  datasource:
+    url: jdbc:mysql://localhost:3306/stark
+    username: root
+    password: password
+    driver-class-name: com.mysql.jdbc.Driver
+
+logging:
+  level:
+    root: ERROR
+    org.springframework.jdbc: DEBUG
+    org.springframework.batch: DEBUG

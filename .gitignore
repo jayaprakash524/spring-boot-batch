@@ -1,0 +1,48 @@
+# Intellij
+.idea/
+*.iml
+*.iws
+target/
+static/
+
+# compiled output
+/user-web/dist
+/user-web/dist-server
+/tmp
+/out-tsc
+
+# dependencies
+/user-web/node_modules
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+testem.log
+/typings
+
+# e2e
+/user-web/e2e/*.js
+/user-web/e2e/*.map
+
+# System Files
+.DS_Store
+Thumbs.db

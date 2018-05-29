@@ -4,26 +4,10 @@ This README would normally document whatever steps are necessary to get your app
 
 ### What is this repository for? ###
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
-
-### How do I get set up? ###
-
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
-
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+The goal is to migrate data from one database to another. The way I configured mentioned below
+ - Configured Multiple Datasource
+ - Configured JdbcTemplate for respective Datasource
+ - Configured Step with ItemReader, ItemProcessor, ItemWriter
+ - Configured partition step with partition handler
+ - Configured Job wth partition step
+ - Configured AsyncTaskExecutor to run threads in parallel.
